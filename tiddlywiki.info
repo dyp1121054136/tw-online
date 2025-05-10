@@ -10,5 +10,11 @@
     "themes": [
         "tiddlywiki/snowwhite",
         "tiddlywiki/vanilla"
-    ]
+	],
+	"includeWikis": [
+	],
+	"build": {
+		"tiddlers": ["--load","tiddlers/",
+			"--rendertiddler","$:/core/save/all","index.html","text/plain"]
+	}
 }
